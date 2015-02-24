@@ -1,0 +1,5 @@
+goldpieces (1.0.0.0-0ubuntu1) trusty; urgency=low
+
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- Drake Emko <drakee@gmail.com>  Mon, 23 Feb 2015 19:33:07 -0500

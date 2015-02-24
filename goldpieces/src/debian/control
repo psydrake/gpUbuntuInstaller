@@ -1,0 +1,15 @@
+Source: goldpieces
+Section: utils
+Priority: optional
+Maintainer: Drake Emko <drakee@gmail.com>
+Build-Depends: debhelper (>= 9), build-essential (>= 11), libssl-dev (>= 1.0.1), libboost-all-dev (>= 1.54), libdb++-dev (>= 5.3), libdb5.3++-dev (>= 5.3)
+Standards-Version: 3.9.4
+Homepage: http://gpieces.com/
+#Vcs-Git: git://git.debian.org/collab-maint/goldpieces.git
+#Vcs-Browser: http://git.debian.org/?p=collab-maint/goldpieces.git;a=summary
+
+Package: goldpieces
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: GoldPieces cryptocurrency service
+ GoldPieces [GP] are an expandable digital currency to be utilized within the browser based gaming industries games themselves. Browser based games come in all shapes and sizes but one common principle they all share is the use of some monetary unit within the games walls. We think it would add a fun and interesting dimension to the browser gaming industry if the games took advantage of the blockchain digital currency technology used in the GoldPieces software.
