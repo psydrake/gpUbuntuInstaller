@@ -1,4 +1,4 @@
 obj/version.o: version.cpp version.h clientversion.h \
- /home/ubuntu/projects/goldpieces/src/obj/build.h
+ /home/adminuser/projects/gpUbuntuInstaller/goldpieces/src/obj/build.h
 version.cpp version.h clientversion.h :
- /home/ubuntu/projects/goldpieces/src/obj/build.h :
+ /home/adminuser/projects/gpUbuntuInstaller/goldpieces/src/obj/build.h :
