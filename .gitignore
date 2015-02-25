@@ -1,2 +1,6 @@
 build-area/
 goldpieces/.bzr/
+goldpieces_*.changes
+goldpieces_*.dsc
+goldpieces-*.gz
+goldpieces_*.gz

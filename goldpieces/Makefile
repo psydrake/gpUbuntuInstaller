@@ -6,12 +6,12 @@ GoldPiecesd:
 clean:
 	cd src && $(MAKE) -f makefile.unix clean
 
-install:
-	cd src && $(MAKE) -f makefile.unix install
+#install:
+#	cd src && $(MAKE) -f makefile.unix install
 
 prefix=/usr
 
 install: GoldPiecesd
 	cd src && install -m 0755 GoldPiecesd $(prefix)/bin
 
-.PHONY: install
+#.PHONY: install
