@@ -7,7 +7,6 @@
 PKGDIR=debian/goldpieces
 
 override_dh_auto_install:
-	#$(MAKE) DESTDIR=$$(pwd)/debian/goldpieces prefix=/usr install
 	mkdir -pv ${PKGDIR}/usr/bin
 	cp -v src/GoldPiecesd ${PKGDIR}/usr/bin/
 
